@@ -29,7 +29,18 @@ function toggleSidebar() {
       <h3>Capítulo 7 - Redes LAN: <a href="PDF/Comunicaciones/clase 7_comun1_2025.pdf" target="_blank">Ver</a></h3>
       <h3>Capítulo 8 - Protocolo Ethernet: <a href="PDF/Comunicaciones/clase 8_comun1_2025.pdf" target="_blank">Ver</a></h3>
       <h3>Capítulo 9 - LAN Inalámbrica: <a href="PDF/Comunicaciones/clase 9_comun1_2025.pdf" target="_blank">Ver</a></h3>
-      <h3>Capítulo 10 - Normas de cableado estructurado: <a href="PDF/Comunicaciones/clase 10_comun1_2025.pdf" target="_blank">Ver</a></h3>`
+      <h3>Capítulo 10 - Normas de cableado estructurado: <a href="PDF/Comunicaciones/clase 10_comun1_2025.pdf" target="_blank">Ver</a></h3>`,
+      TeoDocente:
+      `<h3>Capitulo I - Introducción a las Comunicaciones: <a href="PDF/Comunicaciones/Capítulo 1_teoria_2025.pdf" target="_blank">Ver</a></h3>
+      <h3>Capítulo 2 - Arquitectura de Protocolos: <a href="PDF/Comunicaciones/Capítulo 2_teoria_2025.pdf" target="_blank">Ver</a></h3>
+      <h3>Capítulo 3 - Conceptos de Señales: <a href="PDF/Comunicaciones/Capítulo 3_teoria_2025.pdf" target="_blank">Ver</a></h3>
+      <h3>Capítulo 4 - Transmisión de Datos <a href="PDF/Comunicaciones/Capítulo 4_teoria_2023.pdf" target="_blank">Ver</a></h3>
+      <h3>Capítulo 5 - Medios de transmisión: <a href="PDF/Comunicaciones/Capítulo 5_teoria_2025.pdf" target="_blank">Ver</a></h3>
+      <h3>Capítulo 6 - Codificación y Modulación de Señales: <a href="PDF/Comunicaciones/Capítulo 6_teoria_2025.pdf" target="_blank">Ver</a></h3>
+      <h3>Capítulo 7 - Redes LAN: <a href="PDF/Comunicaciones/Capítulo 7_teoria_2025.pdf" target="_blank">Ver</a></h3>
+      <h3>Capítulo 8 - Protocolo Ethernet: <a href="PDF/Comunicaciones/Capítulo 8_teoria_2025.pdf" target="_blank">Ver</a></h3>
+      <h3>Capítulo 9 - LAN Inalámbrica: <a href="PDF/Comunicaciones/Capítulo 9_teoria_2025.pdf" target="_blank">Ver</a></h3>
+      <h3>Capítulo 10 - Normas de cableado estructurado: <a href="PDF/Comunicaciones/Capítulo 10_teoria_2025.pdf" target="_blank">Ver</a></h3>` 
     };
 
     document.getElementById("contenidoDinamico").innerHTML = contenido[opcion];
