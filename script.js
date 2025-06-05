@@ -21,8 +21,8 @@ function toggleSidebar() {
         <p>Martes 19:00 a 20:30</p>
         <p>Jueves 19:00 a 20:30</p>`,
       TeoCompleta:
-      `<h3>Capitulo I - Introducción a las Comunicaciones: <a href="PDF/Comunicaciones/clase 1_comun1_2025.pdf" target="_blank">Ver</a></h3>`
-      `<h3>Capítulo 2 - Arquitectura de Protocolos: <a href="PDF/Comunicaciones/clase 2_comun1_2025.pdf" target="_blank">Ver</a></h3>`
+      `<h3>Capitulo I - Introducción a las Comunicaciones: <a href="PDF/Comunicaciones/clase 1_comun1_2025.pdf" target="_blank">Ver</a></h3>
+      <h3>Capítulo 2 - Arquitectura de Protocolos: <a href="PDF/Comunicaciones/clase 2_comun1_2025.pdf" target="_blank">Ver</a></h3>`
     };
 
     document.getElementById("contenidoDinamico").innerHTML = contenido[opcion];
