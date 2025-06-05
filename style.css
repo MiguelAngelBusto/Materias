@@ -95,25 +95,36 @@ h1 {
 
 .accordion-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 15px;
+    grid-template-columns: repeat(4, 1fr); /* 3 columnas fijas */
+    gap: 20px;
     padding: 20px;
-    margin-bottom: 20px;
   }
   
   .accordion-btn {
-    background-color: #0099e5;
+    height: 120px;              /* Altura fija */
+    width: 100%;                /* Ancho dentro de su celda */
+    background-color: #0099e6;
     color: white;
-    padding: 15px;
     border: none;
-    border-radius: 8px;
+    border-radius: 10px;
+    font-size: 16px;
     font-weight: bold;
-    cursor: pointer;
-    transition: background 0.3s;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    word-wrap: break-word;
   }
   
   .accordion-btn:hover {
-    background-color: #007acc;
+    background-color: #007bb5;
+  }
+
+  @media (max-width: 768px) {
+    .accordion-grid {
+      grid-template-columns: repeat(2, 1fr); /* En pantallas chicas: 2 columnas */
+    }
   }
   
   .contenido-dinamico {
